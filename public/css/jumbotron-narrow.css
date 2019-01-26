@@ -16,6 +16,15 @@ body {
 .header {
   padding-bottom: 20px;
   border-bottom: 1px solid #e5e5e5;
+  display: flex;
+}
+
+.buttons {
+  margin-left: auto;
+}
+
+.active.button.btn.btn-lg.btn-primary a {
+  color: white;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
